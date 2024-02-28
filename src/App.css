@@ -1,0 +1,96 @@
+.header{
+  width: 100%;
+  display:flex;
+  justify-content: center;
+}
+
+.header .logo img{
+  height: 80px;
+}
+
+.mid_section1{
+  display: flex;
+  width: 95%;
+  margin: auto;
+}
+
+.award_img{
+  width: 42%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.award_img img{
+  height: 700px;
+}
+
+.content{
+  width: 65%;
+}
+
+.content ul, .content p:last-child{
+  font-size: medium;
+} 
+
+#content_head{
+  font-weight:bold;
+}
+
+.content img{
+  height: 500px;
+  width: 100%;
+}
+
+.mid_section2{
+  width: 98%;
+  margin: auto;
+  border-bottom: solid red 2px;
+}
+
+.instru_img{
+  display: flex;
+  justify-content: center;
+}
+
+.instru_head p{
+  font-size: 17px;
+}
+
+.instru_img img{
+  width: 75%;
+}
+
+.instru_name p{
+  text-align: center;
+}
+
+.sec_head h5{
+  text-align: center;
+}
+
+.sec_list{
+  width: 90%;
+  margin: auto;
+}
+
+.sec_list p{
+  text-align: center;
+}
+
+.sec_list p span{
+  color: red;
+}
+
+.footer{
+  background-color: red;
+  margin: 4px;
+}
+
+#footer_bold{
+  color: white; font-weight:bold;
+}
+
+#highlight{
+  font-weight:bold;
+}

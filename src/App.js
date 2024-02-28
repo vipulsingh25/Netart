@@ -4,6 +4,8 @@ import Award from './asserts/1.png';
 import GroupImg from './asserts/2.png';
 import InstruImg from './asserts/3.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPhone,faGlobe } from '@fortawesome/free-solid-svg-icons';
+import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 
 function App() {
   return (
@@ -39,9 +41,9 @@ function App() {
 
 
       <div class="footer">
-        <div><FontAwesomeIcon icon="fa-solid fa-phone" /><div><p>Toll free <span id="footer_bold">1800 200 1234</span></p></div></div>
-        <div><FontAwesomeIcon icon="fa-brands fa-facebook" style={{color: "#ffffff"}} /><div><a>www.facebook.com/cripumps</a></div></div>
-        <div><FontAwesomeIcon icon="fa-solid fa-globe" /><div><a>www.crigroups.com</a></div></div>
+        <div class="social_icon"><FontAwesomeIcon icon={faPhone} /><div><p>Toll free <span id="footer_bold">1800 200 1234</span></p></div></div>
+        <div class="social_icon"><FontAwesomeIcon icon={faFacebook} style={{color: "#ffffff"}} /><div><a href='www.facebook.com/cripumps'>www.facebook.com/cripumps</a></div></div>
+        <div class="social_icon"><FontAwesomeIcon icon={faGlobe} /><div><a href='www.crigroups.com'>www.crigroups.com</a></div></div>
       </div>
     </div>
     </>

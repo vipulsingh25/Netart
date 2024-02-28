@@ -85,12 +85,29 @@
 .footer{
   background-color: red;
   margin: 4px;
+  color:white;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 #footer_bold{
-  color: white; font-weight:bold;
+  font-weight:bold;
 }
 
 #highlight{
   font-weight:bold;
+}
+
+.social_icon{
+  display: flex;
+  margin-top: 10px;
+}
+
+.footer div div{
+  margin-left: 4px;
+}
+
+.footer a{
+  text-decoration: none;
+  color: white;
 }
